@@ -4,7 +4,120 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Apex Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav class="nav">
+        <img src="./images/apex-logo.svg" class="nav__logo" />
+        <div class="nav__menu menu">
+          <a href="" target="blank" class="menu__demos">Demos</a>
+          <a href="" target="blank" class="menu__about">About</a>
+          <a href="" target="blank" class="menu__blod">Blog</a>
+          <a href="" target="blank" class="menu__pages">Pages</a>
+          <a href="" target="blank" class="menu__contact">Contact</a>
+        </div>
+        <div class="nav__acc acc">
+          <a href="" target="blank" class="acc__login">Login</a>
+          <button class="acc__btn">Get Started Free</button>
+        </div>
+      </nav>
+    </header>
+    <div class="main-wrap">
+      <div class="main-wrap__main-left main-left">
+        <h1 class="main-left__slogan">
+          Start chatting with customers, anytime, anywhere with Apex
+        </h1>
+        <p class="main-left__desc">
+          Great software that allows you to chat from any place at any time
+          without any interruption.
+        </p>
+        <button class="main-left__btn btn">
+          <p class="btn__text">Start Chatting Now</p>
+          <img
+            src="./images/icons/main-arrow-right.svg"
+            class="btn__arrow--right"
+          />
+        </button>
+        <div class="main-left__rating rating">
+          <div class="rating__customers customers">
+            <h1 class="customers__num">2,291</h1>
+            <p class="customers__text">Happy Customers</p>
+          </div>
+          <div class="rating__divider"></div>
+          <div class="rating__stars stars">
+            <h1 class="stars__num">4.8/5</h1>
+            <div class="stars__icons">
+              <img
+                src="./images/icons/star-yellow.svg"
+                class="stars__icons--yellow"
+              />
+              <img
+                src="./images/icons/star-yellow.svg"
+                class="stars__icons--yellow"
+              />
+              <img
+                src="./images/icons/star-yellow.svg"
+                class="stars__icons--yellow"
+              />
+              <img
+                src="./images/icons/star-yellow.svg"
+                class="stars__icons--yellow"
+              />
+              <img
+                src="./images/icons/star-gray.svg"
+                class="stars__icons--gray"
+              />
+              <p class="stars__icons icons__text">Rating</p>
+            </div>
+          </div>
+          <img
+            src="./images/rating-photo-3.svg"
+            class="rating__photo rating__photo--c"
+          />
+          <img
+            src="./images/rating-photo-2.svg"
+            class="rating__photo rating__photo--b"
+          />
+          <img
+            src="./images/rating-photo-1.svg"
+            class="rating__photo rating__photo--a"
+          />
+        </div>
+      </div>
+      <div class="main-wrap__main-right main-right">
+        <img src="./images/main-smiling-woman.svg" class="main-right__photo" />
+        <img
+          src="./images/Ellipse 42.svg"
+          class="main-right__ellipse--outline"
+        />
+        <img
+          src="./images/Ellipse 41.svg"
+          class="main-right__ellipse--yellow"
+        />
+        <div class="main-right__jenny jenny">
+          <p class="jenny__name">Jenny Wilson</p>
+          <p class="jenny__text">
+            I commented on Figma, I want to add some fancy icons. Do you have
+            any icon set?
+          </p>
+          <img src="./images/jenny-wilson.png" class="jenny__photo" />
+        </div>
+        <div class="main-right__ronald ronald">
+          <p class="ronald__name">Ronald Richards</p>
+          <p class="ronald__text">
+            One of the best chatting app I have ever used.
+          </p>
+          <img src="./images/ronald-richards.svg" class="ronald__photo" />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

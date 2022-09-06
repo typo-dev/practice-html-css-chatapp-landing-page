@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+header {
+  width: 1600px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #1b1c20;
+
+  padding-top: 21px;
+  padding-bottom: 131px;
+}
+
+.nav__logo {
+  margin-left: 152px;
+}
+
+.nav__menu {
+  width: 446px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.acc__login {
+  margin-right: 34px;
+}
+
+.acc__btn {
+  width: 167px;
+  height: 50px;
+  background: #fb8e0b;
+  border-radius: 8px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Content/ nuetral */
+
+  color: #ffffff;
+
+  margin-right: 152px;
+}
+
+.main-wrap {
+  width: 1600px;
+  height: 673px;
+  margin: 0 auto;
+  background-color: white;
+
+  display: flex;
+}
+
+.main-left {
+  margin-left: 152px;
+  margin-bottom: 109px;
+  margin-right: 85px;
+}
+
+/* "U8" font replaced with "Mulish"*/
+.main-left__slogan {
+  width: 509px;
+  height: 180px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+
+  color: #1b1c20;
+
+  margin-bottom: 29px;
+}
+
+.main-left__desc {
+  width: 440px;
+  height: 64px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+
+  color: #383a47;
+
+  margin-bottom: 29px;
+}
+
+.main-left__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  width: 220px;
+
+  background: #fb8e0b;
+  border-radius: 8px;
+
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+
+  color: #ffffff;
+
+  margin-bottom: 109px;
+}
+
+.main-left__rating {
+  position: relative;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.rating__customers {
+  margin-left: 29%;
+}
+
+.customers__num {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  /* identical to box height, or 140% */
+
+  letter-spacing: -1px;
+
+  /* Content/ header */
+
+  color: #1b1c20;
+}
+
+.customers__text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Content/ body */
+
+  color: #383a47;
+
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.rating__divider {
+  width: 39px;
+  height: 1px;
+
+  /* Content/ header */
+
+  background-color: #1b1c20;
+
+  border: 1px solid #1b1c20;
+  border-radius: 8px;
+  transform: rotate(-90deg);
+}
+
+.stars__num {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  /* identical to box height, or 140% */
+
+  letter-spacing: -1px;
+
+  /* Content/ header */
+
+  color: #1b1c20;
+}
+
+.stars__icons--yellow {
+  padding-right: 3px;
+}
+
+.stars__icons--gray {
+  padding-right: 10px;
+}
+
+.icons__text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Content/ body */
+
+  color: #383a47;
+
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.rating__photo {
+  position: absolute;
+}
+
+.rating__photo--c {
+  left: 15%;
+  top: 0%;
+}
+
+.rating__photo--b {
+  left: 7%;
+  top: 0%;
+}
+
+.rating__photo--a {
+  left: 0%;
+  top: 0%;
+}
+
+.stars__icons {
+  display: flex;
+}
+
+.btn__text {
+  padding-right: 9px;
+}
+
+.btn__arrow--right {
+  margin-top: 2px;
+}
+
+.main-right {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.main-right__photo {
+  position: absolute;
+  left: 2%;
+  top: -11%;
+  z-index: 100;
+}
+
+.main-right__ellipse--outline {
+  position: absolute;
+  left: 16%;
+  top: 20%;
+}
+
+.main-right__ellipse--yellow {
+  position: absolute;
+  left: 10%;
+  top: 25%;
+}
+
+.main-right__jenny {
+  position: absolute;
+  left: 49%;
+  top: 50%;
+
+  width: 274px;
+  height: 106px;
+
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 84px 110px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(11.9604px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 8.88889px;
+
+  z-index: 200;
+}
+
+.jenny__name {
+  margin-left: 75px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12.4444px;
+  line-height: 18px;
+  /* identical to box height, or 145% */
+
+  /* Content/ header */
+
+  color: #1b1c20;
+
+  padding-top: 14px;
+  margin-bottom: 5px;
+}
+
+.jenny__text {
+  margin-left: 74px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+
+  /* Content/ body */
+
+  color: #383a47;
+
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+
+.jenny__photo {
+  position: absolute;
+  left: 5%;
+  top: 14%;
+  border-radius: 50%;
+}
+
+.main-right__ronald {
+  position: absolute;
+  left: 2%;
+  top: 71%;
+
+  width: 263px;
+  height: 86px;
+
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 84px 110px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(11.9604px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 8.88889px;
+
+  z-index: 200;
+}
+
+.ronald__name {
+  margin-left: 75px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12.4444px;
+  line-height: 18px;
+  /* identical to box height, or 145% */
+
+  /* Content/ header */
+
+  color: #1b1c20;
+
+  padding-top: 14px;
+  margin-bottom: 5px;
+}
+
+.ronald__text {
+  margin-left: 74px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+
+  /* Content/ body */
+
+  color: #383a47;
+
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+
+.ronald__photo {
+  position: absolute;
+  left: 5%;
+  top: 14%;
+  border-radius: 50%;
+}
