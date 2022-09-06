@@ -1,5 +1,5 @@
 # practice-landing-chatapp
-Practicing coding html/css for a landing page for a chat application (page not designed by me)
+Practicing coding html/css for a chat application landing page (page not designed by me)
 
 Design:
 Chat Application landing Page
