@@ -1122,3 +1122,133 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.inbox-wrap {
+  width: 1600px;
+  height: 645px;
+  margin: 0 auto;
+  background-color: #f8f8fa;
+  display: flex;
+}
+
+.inbox-wrap__inbox-container {
+  position: relative;
+  width: 416px;
+  height: 407px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 24px 1px rgba(0, 0, 0, 0.06);
+  border-radius: 11.6201px;
+
+  margin-top: 110px;
+  margin-left: 262px;
+  margin-right: 244px;
+}
+
+.inbox-container__inbox-card {
+  margin-top: 17.86px;
+  margin-left: 23.24px;
+}
+
+.inbox-container__inbox-user-photo {
+  position: absolute;
+}
+
+.inbox-user-photo--A {
+  left: -9%;
+  top: 24%;
+}
+
+.inbox-user-photo--B {
+  left: 12%;
+  top: 87%;
+}
+
+.inbox-user-photo--C {
+  left: 90%;
+  top: 55%;
+}
+
+.inbox-text-container {
+  margin-top: 158px;
+}
+
+.inbox-text-container__title {
+  width: 499px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  /* or 117% */
+
+  /* Content/ header */
+
+  color: #1b1c20;
+  margin-bottom: 22px;
+}
+
+.inbox-text-container__desc {
+  width: 498px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  /* Content/ body */
+
+  color: #383a47;
+  margin-bottom: 67px;
+}
+
+.inbox-text-container__inbox-stats-container {
+  display: flex;
+}
+
+.inbox-stats-container__num {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 56px;
+  /* identical to box height, or 133% */
+
+  /* Content/ header */
+
+  color: #1b1c20;
+}
+
+.inbox-stats-container__num--websites {
+  margin-right: 22px;
+}
+
+.inbox-stats-container__num--chats {
+  margin-right: 16px;
+}
+
+.inbox-stats-container__text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+
+  /* Content/ body */
+
+  color: #383a47;
+}
+
+.inbox-stats-container__text--websites {
+  width: 77px;
+  height: 44px;
+  margin-right: 35px;
+}
+
+.inbox-stats-container__text--chats {
+  width: 83px;
+  height: 44px;
+}
