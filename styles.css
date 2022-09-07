@@ -1405,3 +1405,130 @@ header {
   width: 62.22px;
   height: 62.22px;
 }
+
+footer {
+  width: 1600px;
+  height: 660px;
+  margin: 0 auto;
+  background-color: #f8f8fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__slogan {
+  width: 739px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 56px;
+  /* or 117% */
+
+  text-align: center;
+
+  /* Content/ header */
+
+  color: #1b1c20;
+  padding-top: 105px;
+  margin-bottom: 36px;
+}
+
+.footer__btn {
+  width: 190px;
+  height: 56px;
+  background: #fb8e0b;
+  border-radius: 10px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+
+  margin-bottom: 131px;
+}
+
+.footer__bar {
+  width: 100%;
+  display: flex;
+}
+
+.footer__bar__logo {
+  margin-left: 155.22px;
+  margin-right: 303.51px;
+  margin-bottom: 30.2px;
+}
+
+.footer__bar__menu {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 30px;
+  /* identical to box height, or 176% */
+
+  /* Content/ header */
+
+  color: #1b1c20;
+  margin-right: 273px;
+}
+
+.footer__menu__about {
+  margin-right: 67.1px;
+}
+
+.footer__menu__features {
+  margin-right: 67.21px;
+}
+
+.footer__menu__works {
+  margin-right: 68.18px;
+}
+
+.footer__bar__socials {
+  display: flex;
+  margin-right: 152px;
+}
+
+.socials__twitter {
+  margin-right: 34.39px;
+}
+
+.socials__facebook {
+  margin-right: 34.39px;
+}
+
+.socials__instagram {
+  margin-right: 34.39px;
+}
+
+.footer__line {
+  margin-bottom: 33px;
+}
+
+.footer__foot {
+  display: flex;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  /* Content/ text 3 */
+
+  color: #797b89;
+}
+
+.foot__copyright {
+  margin-right: 730px;
+}
+
+.foot__privacy {
+  margin-right: 40px;
+}
