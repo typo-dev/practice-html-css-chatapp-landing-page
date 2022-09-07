@@ -420,3 +420,10 @@ header {
   top: 14%;
   border-radius: 50%;
 }
+
+.inbox-wrap {
+  width: 1600px;
+  height: 645px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
