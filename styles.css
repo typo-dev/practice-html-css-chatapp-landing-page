@@ -1252,3 +1252,156 @@ header {
   width: 83px;
   height: 44px;
 }
+
+.client-wrap {
+  position: relative;
+  width: 1600px;
+  height: 715px;
+  margin: 0 auto;
+
+  background: #fb8e0b;
+  overflow: hidden;
+}
+
+.client-wrap__bg-shape {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+}
+
+.client-wrap__title {
+  width: 446px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  /* or 121% */
+
+  text-align: center;
+
+  /* Content/ nuetral */
+
+  color: #ffffff;
+
+  margin: 0 auto;
+  margin-top: 84px;
+  margin-bottom: 74px;
+}
+
+.reviews-container {
+  display: flex;
+}
+
+.reviews-container__wade-container {
+  width: 600px;
+  height: 244.44px;
+
+  background: #ffffff;
+  border-radius: 11.1111px;
+  margin-left: 152px;
+  margin-right: 95.33px;
+}
+
+.reviews__quote {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  text-align: center;
+
+  /* Brand/P2 */
+
+  color: #fd6003;
+  padding-top: 31.55px;
+  margin-bottom: 15.45px;
+}
+
+.reviews__comment {
+  width: 501px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  text-align: center;
+
+  /* Content/ body */
+
+  color: #383a47;
+
+  mix-blend-mode: normal;
+  opacity: 0.7;
+
+  margin: 0 auto;
+  margin-bottom: 61.17px;
+}
+
+.name-pos-container {
+  position: relative;
+  width: 210px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.wade-container__photo {
+  position: absolute;
+  left: -8%;
+  top: -4%;
+  width: 62.22px;
+  height: 62.22px;
+}
+
+.reviews__name {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+
+  /* Content/ nuetral */
+
+  color: #ffffff;
+
+  margin-left: 62px;
+}
+
+.reviews__position {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  /* Content/ nuetral */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+
+  margin-left: 62px;
+}
+
+.reviews-container__esther-container {
+  width: 600px;
+  height: 244.44px;
+
+  background: #ffffff;
+  border-radius: 11.1111px;
+}
+
+.esther-container__photo {
+  position: absolute;
+  left: -8%;
+  top: -4%;
+  width: 62.22px;
+  height: 62.22px;
+}
